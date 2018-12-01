@@ -1,0 +1,15 @@
+{
+	"name": "brightflair/www.brightflair.com",
+	"type": "project",
+	"minimum-stability": "dev",
+
+	"require": {
+		"phpgt/webengine": "dev-master"
+	},
+	"authors": [
+		{
+			"name": "Greg Bowler",
+			"email": "greg.bowler@g105b.com"
+		}
+	]
+}

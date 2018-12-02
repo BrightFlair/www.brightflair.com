@@ -1,0 +1,18 @@
+.c-bottom-nav {
+	@extend %box;
+	@extend %body-text;
+	@extend %gutter-margin;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			a {
+				font-size: 0.75rem;
+				color: $col-text;
+			}
+		}
+	}
+}

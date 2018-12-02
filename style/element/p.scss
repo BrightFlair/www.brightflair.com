@@ -1,0 +1,10 @@
+p {
+	@extend %box;
+	@extend %body-text;
+	line-height: 1.5em;
+	margin-bottom: 1rem;
+
+	&.small {
+		font-size: 0.8rem;
+	}
+}

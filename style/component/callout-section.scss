@@ -1,0 +1,24 @@
+.c-callout-section {
+	h1 {
+		@extend %box;
+		@extend %gutter-margin;
+
+		font-size: 2.5rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		max-width: $break-min - 6rem;
+
+		@media(min-width: $break-med) {
+			margin-top: 4rem;
+			margin-bottom: 4rem;
+			font-size: 3.5rem;
+			max-width: 30rem;
+		}
+		@media(min-width: $break-max) {
+			margin-top: 8rem;
+			margin-bottom: 8rem;
+			font-size: 5rem;
+			max-width: 50rem
+		}
+	}
+}

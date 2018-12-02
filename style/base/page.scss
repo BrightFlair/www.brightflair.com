@@ -1,0 +1,12 @@
+html {
+	background-color: $col-bg;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: $col-text;
+	border-top: 4px solid $col-brand;
+}

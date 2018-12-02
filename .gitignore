@@ -1,4 +1,5 @@
 /.idea
 /vendor/
 /www/
+/style/.sass-cache/
 *.phar
